@@ -1,4 +1,4 @@
-s3-bucket = {
+s3-buckets = {
   B1 = {
 	s3_bucket_name = "testing-bsan1"
 	}
