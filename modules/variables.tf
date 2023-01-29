@@ -1,4 +1,4 @@
-varibale "s3-bucket" {
+variable "s3-bucket" {
    description = "S3 Bucket"
    type = map(object(
      {
