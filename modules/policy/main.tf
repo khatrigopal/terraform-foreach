@@ -1,7 +1,7 @@
 resource "aws_s3_bucket_policy" "my first policy" {
   for_each = var.policy
   bucket = data.s3-buckets[each.key].name
-  policy = <<EOT
+  policy = <<EOF
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -17,10 +17,9 @@ resource "aws_s3_bucket_policy" "my first policy" {
         "s3:*"
       ],
       "Effect": "Allow",
-      "Resource": "${aws_s3_bucket.bucket.arn}"
+      "Resource": aws_s3_bucket.s3-bucket[each.key]
     }
   ]
-
 }
-EOT
+EOF
 }
