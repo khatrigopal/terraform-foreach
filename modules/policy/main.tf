@@ -1,4 +1,4 @@
-resource "aws_s3_bucket_policy" "my first policy" {
+resource "aws_s3_bucket_policy" "my-first-policy" {
   bucket = data.s3-buckets[each.key].name
   policy = <<EOF
 {
