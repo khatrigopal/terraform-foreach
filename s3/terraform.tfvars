@@ -14,11 +14,11 @@ s3-buckets = {
 
 sns-topic = {
   S1 = {
-	sns-topic = "First Topic"
+	sns-topic-name = "First Topic"
 	}
   
  S2 = {
-	sns-topic = "Second Topic"
+	sns-topic-name = "Second Topic"
 	}
   
 }
