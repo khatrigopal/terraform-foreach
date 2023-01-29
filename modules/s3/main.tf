@@ -17,7 +17,7 @@ resource "aws_s3_bucket" "s3-bucket" {
         "s3:*"
       ],
       "Effect": "Allow",
-      "Resource": "${aws_s3_bucket.s3-bucket.arn}"
+      "Resource": "${aws_s3_bucket.s3-bucket.[each.key]}"
     }
   ]
 }
