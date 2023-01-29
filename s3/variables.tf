@@ -1,3 +1,3 @@
-varibale  "s3-bucket" {
+variable  "s3-bucket" {
   type = map(any)
 }
