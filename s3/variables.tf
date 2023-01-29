@@ -1,6 +1,6 @@
 variable  "s3-buckets" {
   type = map(any)
 }
-variable  "sns-topic-name" {
+variable  "sns-topics" {
   type = map(any)
 }
