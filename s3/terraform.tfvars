@@ -11,3 +11,14 @@ s3-buckets = {
 	s3_bucket_name = "testing-bsan3"
 	}
 }
+
+sns-topic = {
+  S1 = {
+	sns-topic = "First Topic"
+	}
+  
+ S2 = {
+	sns-topic = "Second Topic"
+	}
+  
+}
