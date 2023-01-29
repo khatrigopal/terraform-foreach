@@ -4,5 +4,5 @@ varibales sns-topics {
      {
 	    sns-topic-name = string
      }
-	 
+))	 
 }
