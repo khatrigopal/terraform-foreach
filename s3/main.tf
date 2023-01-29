@@ -1,4 +1,4 @@
 module "s3" {
-  source     = "../modules/
+  source     = "../modules/"
   s3-buckets = var.s3-buckets
 }
