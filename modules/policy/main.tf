@@ -1,5 +1,4 @@
 resource "aws_s3_bucket_policy" "my first policy" {
-  for_each = var.policy
   bucket = data.s3-buckets[each.key].name
   policy = <<EOF
 {
