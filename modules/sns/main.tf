@@ -6,7 +6,7 @@ resource "aws_sns_topic" "sns-topic" {
 resource "aws_sns_topic_subscription" "user_updates_sqs_target" {
   for_each = var.sns-topics
  
-  topic_arn = aws_sns_topic.sns-topic[each.key]
+  topic_arn = "aws_sns_topic.sns-topic[each.key]"
   protocol  = "email"
   endpoint  = "khatri.gopal@gmail.com"
 }
