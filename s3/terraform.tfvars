@@ -15,9 +15,11 @@ s3-buckets = {
 sns-topics = {
   B1 = {
 	sns-topic-name = "first-topic"
+	subscription-name = "first-sbsc"
 	},
   
   B2 = {
 	sns-topic-name = "second-topic"
+	subscription-name = "second=sbsc"
 	}
 }	
