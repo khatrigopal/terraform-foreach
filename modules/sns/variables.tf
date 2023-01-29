@@ -1,4 +1,4 @@
-varibales sns-topics {
+variabls sns-topics {
    description = "SNS Details"
    type = map(object(
      {
