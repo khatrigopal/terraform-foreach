@@ -1,4 +1,4 @@
-variable "sns-topic" {
+variable "sns-topic-name" {
    description = "Creating the SNS Topics"
    type = map(object(
      {
