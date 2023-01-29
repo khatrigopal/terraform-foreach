@@ -1,5 +1,6 @@
 resource "aws_s3_bucket_policy" "my-first-policy" {
   bucket = data.s3-buckets[each.key].name
+  for_each = var.policy
   policy = <<EOF
 {
   "Version": "2012-10-17",
