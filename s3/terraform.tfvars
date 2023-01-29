@@ -12,7 +12,7 @@ s3-buckets = {
 	}
 }
 
-sns-topic = {
+sns-topics = {
   B1 = {
 	sns-topic-name = "First Topic"
 	},
