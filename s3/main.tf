@@ -4,5 +4,5 @@ module "s3" {
   }
 module "sns-topics" {
   source     = "../modules/sns"
-  sns-topic-name = var.sns-topics
+  sns-topics = var.sns-topics
 }
