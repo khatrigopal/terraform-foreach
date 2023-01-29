@@ -4,4 +4,5 @@ module "s3" {
   }
 module "policy" {
   source     = "../modules/policy"
+  s3-buckets = var.s3-buckets
 }
